@@ -1,0 +1,31 @@
+{
+	"compilerOptions": {
+	   "outDir": "build",
+	   "target": "es2019",
+	   "lib": ["dom", "dom.iterable", "esnext"],
+	   "downlevelIteration":true,
+	   "baseUrl": "./",
+	   "allowJs": true,
+	   "skipLibCheck": true,
+	   "allowSyntheticDefaultImports": true,
+	   "esModuleInterop": true,
+	   "strict": true,
+	   "forceConsistentCasingInFileNames": true,
+	   "noFallthroughCasesInSwitch": true,
+	   "module": "esnext",
+	   "moduleResolution": "node",
+	   "resolveJsonModule": true,
+	   "isolatedModules": false,
+	   "sourceMap": true,
+	   "noEmit": false,
+	   "jsx": "react-jsx",
+	   "typeRoots": [
+		   "./node_modules/@marcapo/**/*.d.ts",
+		   ]
+   },
+   "ts-node": {
+	   "compilerOptions": {
+		   "module": "CommonJS",
+	   }
+	 }
+}

@@ -1,0 +1,9 @@
+{
+	"Resource-Components":{
+		"prefix": ["rt","resourcetext"],
+		"body": [
+			"<ResourceText resourceKey={`$1`} />",
+		],
+		"description": "ResourceText Snippet"
+	}
+}
