@@ -1,8 +1,8 @@
 import React from "react";
-import { Template } from "./todolist/template";
+import { App } from "./todolist/App";
 
 export const Index: React.FC = () => (
 	<>
-		<Template />
+		<App />
 	</>
 );
